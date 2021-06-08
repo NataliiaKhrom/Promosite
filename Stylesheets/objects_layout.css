@@ -12,7 +12,7 @@ canvas {
 
 
 .header-text {
-    position: relative;
+    position: absolute;
     max-width: 100%;
     top: 30%;
     left: 16%;
