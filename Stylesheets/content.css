@@ -68,3 +68,18 @@ font-weight: normal;}
   src: url("../Fonts/HeliosCond-Bold.woff") format("woff"),
        url("../Fonts/HeliosCond-Bold.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../Fonts/BAHNSCHRIFT.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Gillroy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../Fonts/Gilroy-Medium.woff") format("woff"),
+       url("../Fonts/Gilroy-Medium.woff2") format("woff2");
+}
