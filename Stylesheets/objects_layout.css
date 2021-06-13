@@ -52,7 +52,7 @@ canvas {
     white-space: nowrap;}
 
 .menu_1 .button1 , .menu_2 .button1  {
-      position: relative;
+      position: absolute;
       font-family: BlenderProBold,sans-serif;
       font-weight: 700;
       line-height: normal;
@@ -193,3 +193,87 @@ a {
       top: 87%;
       left: 7%;
     }
+
+  .graphics {
+    color: #8c8c8c;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 100%;
+    /*position: relative;*/
+    position: absolute;
+    width: 100%;
+  }
+
+  .main {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+  }
+
+    .graphics h2 {
+      font-family: BlenderProBold, sans-serif;
+      font-size: 3em;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: white;
+      line-height: 1.2;
+      position: absolute;}
+
+  .light {
+    width: 100%;
+    word-break: break-word;
+    color: #cdcdcd;
+    font-size: .3em;
+    margin: 0;
+    top: 55%;
+  }
+
+
+    /*  .graphic-main-top {
+        position: absolute;
+        width: 40%;
+        height: 50%;
+        left: 35%;
+        top: 20%;
+      }
+
+
+      .graphic-main-top h2 {
+        word-break: break-word;
+        color: #cdcdcd;
+        font-size: 1em;
+        margin: 0;
+      }
+
+      .graphic-main {
+        position: absolute;
+        width: 40%;
+        height: 50%;
+        left: 35%;
+        top: 40%;
+      }
+
+      .graphic-main h2 {
+        color: #cdcdcd;
+        font-size: 3.8em;
+        margin: 0;
+      }
+
+      .graphic-main-light {
+        position: absolute;
+        width: 40%;
+        height: 50%;
+        left: 35%;
+        top: 60%;
+      }
+
+
+      .graphic-main-light h2 {
+        word-break: break-word;
+        color: #cdcdcd;
+        font-size: 1em;
+        margin: 0;
+      } */
