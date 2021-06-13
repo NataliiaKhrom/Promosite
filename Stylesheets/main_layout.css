@@ -52,7 +52,7 @@
 
 /* ОБЩИЕ */
 h2 {
-  font-family: BlenderProBold, sans-serif;
+  font-family: Bahnschrift;
   font-size: 2em;
   font-weight: 500;
   text-transform: uppercase;
@@ -163,7 +163,7 @@ h2 {
 }
 
 .header-button h2 {
-  font-family: BlenderProBold, sans-serif;
+  font-family: Bahnschrift;
   font-size: 2em;
   font-weight: 500;
   text-transform: uppercase;
@@ -347,6 +347,9 @@ li {
     display: list-item;}
 
 .c-news {
+    font-family: Gillroy;
+    font-weight: 100;
+    line-height: 120%;
     color: #8c8c8c;
     display: -webkit-box;
     display: flex;
@@ -368,8 +371,9 @@ a {
     box-sizing: inherit;}
 
 .c-news h3 {
-    font-family: BlenderProBold,sans-serif;
-    font-weight: 700;
+    font-family: Bahnschrift;
+    font-weight: 300;
+    line-height: 120%;
     color: #cdcdcd;
     font-size: 2em;
     margin: 0;
