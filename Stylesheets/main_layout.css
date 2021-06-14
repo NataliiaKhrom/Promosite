@@ -627,6 +627,9 @@ a {
 }
 
 .sect-central h2 {
+  font-face: Bahnschrift;
+  font-weight: 100;
+  line-height: 120%;
   position: absolute;
   color: #cdcdcd;
   font-size: 4em;
