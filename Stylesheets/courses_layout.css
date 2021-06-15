@@ -101,8 +101,8 @@
 
 .point-1 , .point-2 , .point-3 {
   position: absolute;
-  width: 5%;
-  height: 30%;
+  width: 2vw;
+  height: 2vw;
   top: 30%;
   border: .2vw double red;
   background: black; /* Цвет фона */
