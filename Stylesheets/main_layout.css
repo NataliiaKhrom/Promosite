@@ -1,7 +1,8 @@
 /* ОТДЕЛЫ */
 
 .block_1 {
-  position: absolute;
+  /*position: absolute; */
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -11,8 +12,10 @@
 }
 
 .block_2 {
-  position: absolute;
-  top: 100%;
+  /*position: absolute; */
+  position: relative;
+/*  top: 100%; */
+top: 0;
   left: 0;
   width: 100%;
   height: 70%;
@@ -21,8 +24,10 @@
 }
 
 .block_3 {
-  position: absolute;
-  top: 170%;
+  /*position: absolute; */
+  position: relative;
+  /* top: 170%; */
+  top: 0;
   left: 0;
   width: 100%;
   height: 43%;
@@ -31,8 +36,10 @@
 }
 
 .block_4 {
-  position: absolute;
-  top: 213%;
+  /*position: absolute; */
+  position: relative;
+  /* top: 213%; */
+  top: 0;
   left: 0;
   width: 100%;
   height: 52%;
@@ -41,8 +48,10 @@
 }
 
 .block_5 {
-  position: absolute;
-  top: 265%;
+  /*position: absolute; */
+  position: relative;
+/*   top: 265%; */
+  top: 0;
   left: 0;
   width: 100%;
   height: 40%;
@@ -317,6 +326,7 @@ height: 5%;
     row-gap: 5%;
     column-gap: 2%;
     grid-template-columns: .8fr 1fr 1fr;
+    /* grid-template-rows: repeat(2,minmax(14.5vw,auto)); */
     grid-template-rows: repeat(2,minmax(16vw,auto));
     top: 10%;
 }
