@@ -1,0 +1,151 @@
+
+/* __________________МЕНЮ_____________________ */
+
+.menu {
+  position: relative;
+  width: 100%;
+  height: 7%;
+  /*  background-color: red;
+    opacity: .3; */
+    overflow-x: hidden;
+}
+
+.menu p {
+/*  font-family: BlenderProBold, sans-serif; */
+  font-family: HeliosThin;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  position: absolute;
+  word-wrap: normal;
+}
+
+.menu-left {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: 100%;
+  left: 0;
+}
+
+.menu-right {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: 100%;
+  left: 5%;
+  top: 0;
+}
+
+.menu-link-1 {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  top: 60%;
+  left: 7%;
+}
+
+.menu-link-2 {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  top: 60%;
+  left: 45%;
+}
+
+/* __________________ХРОНОЛОГИЯ_____________________ */
+
+
+.main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 210%;
+}
+
+.headline {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.headline h1  {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%);
+/*  margin-right: -50%;
+  transform: translate(-50%, -50%); */
+}
+
+.headline h1  {
+  font-family: Bahnschrift;
+  color: #cdcdcd;
+  font-size: 4em;
+  margin: 0;
+}
+
+.main-line {
+  position: relative;
+  width: 7%;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: red;
+  opacity: .5;
+}
+
+.text-block-1 , .text-block-2 , .text-block-3 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-color: blue;
+  opacity: .5;
+
+}
+
+/* __________________ШРИФТ_____________________ */
+
+.text-block-1 h1 {
+  font-family: HeliosThin;
+  font-size: 2em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+}
+
+.text-block-1 h2 {
+  font-family: HeliosThin;
+  font-size: 5em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+}
+
+.text-block-1 p {
+  font-family: HeliosThin;
+  font-size: 1em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+}
+
+/* __________________ГРАФИКА_____________________ */
+
+.graphic {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+}
