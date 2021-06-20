@@ -1,30 +1,24 @@
 /* ОТДЕЛЫ */
 
+
 .block_1 {
-  /*position: absolute; */
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-/*  background-color: red;
-  opacity: .3; */
 }
 
 .block_2 {
-  /*position: absolute; */
   position: relative;
 /*  top: 100%; */
 top: 0;
   left: 0;
   width: 100%;
   height: 70%;
- /*  background-color: blue;
-  opacity: .3;*/
 }
 
 .block_3 {
-  /*position: absolute; */
   position: relative;
   /* top: 170%; */
   top: 0;
@@ -129,6 +123,23 @@ h2 {
 
 
 /* ___________ ГЛАВНЫЙ ЭКРАН ______________ */
+
+.main-left {
+  position: relative;
+    display: inline-block;
+    width: 6%;
+    height: 100%;
+    left: 0;
+}
+
+.main-right {
+  position: relative;
+    display: inline-block;
+    width: 93%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
 
 .header-text {
   position: relative;
@@ -284,7 +295,7 @@ height: 5%;
 }
 
 .bottom_line {
-  position: absolute;
+  position: relative;
     width: 20%;
     height: 3%;
     background-color: red;
@@ -419,18 +430,18 @@ a {
 .l-news-left-part p {
   position: absolute;
   top: 80%;
-  left: 5%;
+  left: 7%;
   width: 100%;
-  height: 100%;
+  height: 20%;
   color: white;
 }
 
 .l-news-left-part h1 {
   position: absolute;
   top: 10%;
-  left: 5%;
+  left: 7%;
   width: 100%;
-  height: 100%;
+  height: 50%;
   color: white;
 }
 
@@ -439,9 +450,9 @@ a {
   position: absolute;
   max-width: 75%;
   top: 30%;
-  left: 5%;
+  left: 7%;
   width: 100%;
-  height: 100%;
+  height: 20%;
   color: white;
 }
 
@@ -454,7 +465,7 @@ a {
   color: #cdcdcd;
   font-size: .8em;
   margin: 0;
-  width: 100%;
+  /* width: 100%; */
   word-break: break-word;
 }
 
@@ -465,7 +476,7 @@ a {
   color: #cdcdcd;
   font-size: 1em;
   margin: 0;
-  width: 100%;
+  /* width: 100%; */
   word-break: break-word;
 }
 
@@ -476,203 +487,210 @@ a {
   color: #cdcdcd;
   font-size: 1.5em;
   margin: 0;
-  width: 100%;
+  /* width: 100%; */
   word-break: break-word;
 }
 
 
-
-
-.c-news__meta {
-  width: 35%;
-  /*position: absolute; */
+.l-news-main {
   position: relative;
-          display: inline-block;
-    top: 83%;
-    left: 7%;}
+  width: 95%;
+  display: inline-block;
+}
 
-.c-news__title {
-  width: 35%;
-  /*position: absolute; */
-  position: relative;
-          display: inline-block;
-  top: 30%;
-  left: 7%;}
+/* ПОЛОЖЕНИЕ */
 
-.c-news__info {
-  width: 35%;
-  /*position: absolute; */
-  position: relative;
-          display: inline-block;
-  top: 35%;
-  left: 7%;}
+.l-news-main p {
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  width: 100%;
+  height: 20%;
+  color: white;
+}
 
-  .c-news__adress {
-    width: 35%;
-    height: 10%;
-    /*position: absolute; */
-    position: relative;
-        display: inline-block;
-    top: 10%;
-    left: 7%;}
-
-  .c-news__button {
-    width: 10%;
-    /*position: absolute; */
-    position: relative;
-        display: inline-block;
-    top: 83%;
-    left: 88%;}
-
-  .c-news__pic {
-    width: 41%;
-    /*position: absolute; */
-    position: relative;
-        display: inline-inline-block;
-    top: 10%;
-    left: 52%;
-  }
-
-  .c-news__pic img {
-    height: 100%;
-    width: 100%;
-  }
+.l-news-main h1 {
+  position: absolute;
+  top: 55%;
+  left: 7%;
+  width: 85%;
+  height: 50%;
+  color: white;
+}
 
 
-  .c-news__meta_2 {
-    /*position: absolute; */
-    position: relative;
-      top: 44%;
-      left: 10%;}
+.l-news-main h2 {
+  position: absolute;
+  max-width: 75%;
+  top: 15%;
+  left: 7%;
+  width: 100%;
+  height: 20%;
+  color: white;
+}
 
-  .c-news__title_2 {
-    /*position: absolute; */
-    position: relative;
-    top: 15%;
-    left: 10%;}
+/* ШРИФТ */
 
-  .c-news__info_2 {
-    width: 75%;
-    /*position: absolute; */
-    position: relative;
-    top: 57%;
-    left: 10%;}
+.l-news-main p {
+  font-family: Bahnschrift;
+  font-weight: 100;
+  line-height: 120%;
+  color: #cdcdcd;
+  font-size: .8em;
+  margin: 0;
+  /* width: 100%; */
+  word-break: break-word;
+}
 
-    .c-news__excerpt_2 {
-      width: 75%;
-      /*position: absolute; */
-      position: relative;
-      top: 91%;
-      left: 10%;
-    }
+.l-news-main h1 {
+  font-family: Bahnschrift;
+  font-weight: 100;
+  line-height: 120%;
+  color: #cdcdcd;
+  font-size: 1em;
+  margin: 0;
+  /* width: 100%; */
+  word-break: break-word;
+}
+
+.l-news-main h2 {
+  font-family: Bahnschrift;
+  font-weight: 300;
+  line-height: 120%;
+  color: #cdcdcd;
+  font-size: 2em;
+  margin: 0;
+  /* width: 100%; */
+  word-break: break-word;
+}
+
+
 
     /* ___________ GRAPHICS ______________ */
 
 
     .graphic-main {
        position: relative;
-       width: 60%;
+       width: 90%;
        height: 70%;
-       left: 20%;
+       left: 5%;
        top: 20%;}
 
-    .graphic-main h1 {
+    .graphic-main-text {
+      position: relative;
+      width: 60%;
+      height: 70%;
+      top: 20%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%);
+    }
+
+  /* ПОЛОЖЕНИЕ */
+
+  .graphic-main-text h1 {
       position: absolute;
-      color: #cdcdcd;
-      font-size: 1em;
-      margin: 0;
-      /* top: 25%;
-      left: 35%; */
-      top: 29%;
+      top: 15%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
     }
 
-    .graphic-main h2 {
+  .graphic-main-text h2 {
       position: absolute;
-      color: #cdcdcd;
-      font-size: 3.8em;
-      margin: 0;
-      /* top: 45%;
-      left: 23%; */
       top: 57%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
     }
 
-    .graphic-main p {
+.graphic-main-text p {
       position: absolute;
-      color: #cdcdcd;
-      font-size: 1em;
-      margin: 0;
-    /*  top: 72%;
-      left: 55%; */
-      top: 77%;
+      top: 82%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
     }
 
+    .graphic-main-text h3 , .graphic-main-text h4 {
+          position: absolute;
+          color: #cdcdcd;
+          font-size: 3.8em;
+          margin: 0;
+          opacity: .5; }
+
+        .graphic-main-text h3 {
+          top: 57%;
+          left: 10%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+        }
+
+            .graphic-main h4 {
+            top: 57%;
+            left: 88%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+          }
+
+    /* ЩШРИФТ */
+
+    .graphic-main-text h1 {
+        color: #cdcdcd;
+        font-size: 1em;
+        margin: 0;
+      }
+
+    .graphic-main-text h2 {
+        color: #cdcdcd;
+        font-size: 4em;
+        margin: 0;
+      }
+
+  .graphic-main-text p {
+        color: #cdcdcd;
+        font-size: 1em;
+      }
+
+
+
+
+
     .graphic-line {
-      position: absolute;
+      position: relative;
       height: 2%;
-      width: 100%;
-      top: 90%;
+      width: 70%;
+      top: 20%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
       background-color: red;
     }
 
-    .graphic-main h3 , .graphic-main h4 {
-      position: absolute;
-      color: #cdcdcd;
-      font-size: 3.8em;
-      margin: 0;
-      opacity: .5; }
 
-      .graphic-main h3 {
-    /*  top: 72%;
-      left: 55%; */
-      top: 57%;
-      left: 10%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .graphic-main h4 {
-  /*  top: 72%;
-    left: 55%; */
-    top: 57%;
-    left: 88%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .square-1 img  , .square-2 img {
+  .square-1  , .square-2  {
     position: absolute;
-    width: 2%;
-    top: 29%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    width: 1vw;
+    height: 1vw;
+    top: 27%;
+    background-color: white;
   }
 
-.square-1 img {
-    left: 26%;
+.square-1 {
+    left: 33%;
   }
 
-  .square-2 img {
-    left: 75%;
-  }
+  .square-2 {
+    left: 66%; }
 
 
 /* ___________ МЕНЮШКА ______________ */
 
+
+/* ___________ ПОЛОСА1 ______________ */
 .central-line-up {
   background-color: white;
-  position: absolute;
+  position: relative;
   width: .02%;
   height: 30%;
   left: 50%;
@@ -681,45 +699,42 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.central-line-bottom {
-  background-color: white;
-  position: absolute;
-  width: .02%;
-  height: 30%;
-  left: 50%;
-  top: 80%;
+.block-central {
+  position: relative;
+  width: 65%;
+  height: 60%;
+  top: 20%;
+    left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
 
-.sect-left {
-  position: absolute;
-  width: 18%;
-  height: 30%;
-  top: 30%;
-    left: 18%;
-    /*  background-color: blue;
-       opacity: .3; */
-}
 
-.sect-central {
-  position: absolute;
+
+/* ___________ ТЕКСТ ______________ */
+
+.sect-left {
+  position: relative;
+  display: inline-block;
   width: 26%;
   height: 30%;
   top: 30%;
-  left: 37%;
-  /*  background-color: blue;
-     opacity: .3; */
+}
+
+.sect-central {
+  position: relative;
+  display: inline-block;
+  width: 44%;
+  height: 30%;
+  top: 30%;
 }
 
 .sect-right {
-  position: absolute;
-  width: 18%;
+  position: relative;
+  display: inline-block;
+  width: 27%;
   height: 30%;
   top: 30%;
-  left: 64%;
-/*  background-color: blue;
-   opacity: .3; */
 }
 
 .sect-left h2 , .sect-right h2 {
@@ -727,7 +742,7 @@ a {
   color: #cdcdcd;
   font-size: 2.8em;
   margin: 0;
-  top: 21%;
+  top: 0;
 }
 
 .sect-left h1 , .sect-right h1 {
@@ -735,7 +750,30 @@ a {
   color: #cdcdcd;
   font-size: 1em;
   margin: 0;
-  top: 60%;
+  top: 75%;
+}
+
+.sect-right h1 , .sect-right h2  {
+right: 0;
+text-align: right;
+white-space: nowrap;}
+
+.sect-central h2 {
+  position: absolute;
+  margin: 0;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.sect-central h1 {
+  position: absolute;
+  margin: 0;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .sect-central h2 {
@@ -744,21 +782,23 @@ a {
   line-height: 120%;
   position: absolute;
   color: #cdcdcd;
-  font-size: 4em;
-  margin: 0;
-  top: 15%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
+  font-size: 4em;}
+
 
 .sect-central h1 {
-  position: absolute;
   color: #cdcdcd;
-  font-size: 1.7em;
-  margin: 0;
-  top: 40%;
+  font-size: 1em;
+}
+
+
+/* ___________ ПОЛОСА1 ______________ */
+.central-line-bottom {
+  background-color: white;
+  position: absolute;
+  width: .02%;
+  height: 30%;
   left: 50%;
+  top: 80%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
