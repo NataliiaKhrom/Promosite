@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+     height: 100%;
+    min-height: 100%;
+  background: #000017;
+ overflow-y: scroll;
+/*  overflow-x: hidden; */}
+
+
+
+.maket {
+  position: absolute;
+   width: 100%;
+   height: 100%;
+   /* width: 1440px;
+   height: 2546px;*/
+  /* background: url('../Images/maket1.png') center no-repeat; */
+   z-index: -1;
+   top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;}
+
+ .maket::before {
+   opacity: .3;
+   background: url('../Images/maket_courses.png')  center no-repeat;
+   background-size: auto 100% ;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;}
+
+
+
+@font-face {
+font-family: "MK-90";
+src: url("../Fonts/MK-90.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;}
+
+@font-face {
+font-family: "HeliosCond";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/HeliosCond.woff") format("woff"),
+url("../Fonts/HeliosCond.ttf") format("ttf");
+}
+
+
+@font-face {
+font-family: "HeliosThin";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/HeliosThinC.woff2") format("woff2"),
+url("../Fonts/HeliosThinC.woff") format("woff"),
+url("../Fonts/HeliosThinC.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "HeliosCond-bold";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/HeliosCond-Bold.woff") format("woff"),
+url("../Fonts/HeliosCond-Bold.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "Bahnschrift";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/BAHNSCHRIFT.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "Gillroy";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/Gilroy-Medium.woff") format("woff"),
+url("../Fonts/Gilroy-Medium.woff2") format("woff2");
+}
