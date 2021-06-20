@@ -1,0 +1,306 @@
+.search {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: .3;
+}
+
+
+.block-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+}
+
+.block-2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
+}
+
+.block-3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.vacancies-1 {
+  height: 95%;
+}
+
+.vacancies-2 {
+  height: 105%;
+}
+/* ________________ МЕНЮ _______________ */
+
+.menu {
+  position: relative;
+  width: 100%;
+  height: 7%;
+  /*  background-color: red;
+    opacity: .3; */
+    overflow-x: hidden;
+}
+
+.menu p {
+/*  font-family: BlenderProBold, sans-serif; */
+  font-family: HeliosThin;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  position: absolute;
+  word-wrap: normal;
+}
+
+.menu-left {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: 100%;
+  left: 0;
+}
+
+.menu-right {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  height: 100%;
+  left: 5%;
+  top: 0;
+}
+
+.menu-link-1 {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  top: 60%;
+  left: 7%;
+}
+
+.menu-link-2 {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  top: 60%;
+  left: 45%;
+}
+
+
+/* ________________ лево _______________ */
+
+.square {
+  position: relative;
+  height: 1vw;
+  width: 1vw;
+    left: 50%;
+    top: 14%;
+  background-color: white;
+}
+
+.left-part-1 {
+  position: relative;
+    display: inline-block;
+    vertical-align: top;
+    top: 0;
+  height: 100%;
+  width: 10%;
+}
+
+.right-part-1 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+    top: 0;
+  height: 100%;
+  width: 85%;
+}
+
+.line-graphic {
+  position: relative;
+  display: inline-block;
+  width: 1%;
+  height: 100%;
+  left: 50%;
+  color: white;
+  background-color: white;
+}
+
+ .block-1 * .line-graphic
+{
+  background-color: red;
+  top: 16%;
+  height: 84%;
+}
+
+.block-2 * .line-graphic
+{
+ background-color: white;
+}
+
+.block-3 * .line-graphic
+{
+ background-color: red;
+ height: 15%;
+ top: 0;
+}
+
+.line-graphic-2 {
+  position: relative;
+  width: 1%;
+  height: 49%;
+  left: 50%;
+  top: 0;
+  color: white;
+  background-color: red;
+}
+
+.symbols {
+  position: relative;
+  height: 12%;
+  width: 30%;
+    left: 50%;
+    top: 0;
+   color: white;
+}
+
+.symbols-2 {
+  position: relative;
+  height: 12%;
+  width: 30%;
+    left: 50%;
+    top: 0;
+   color: white;
+}
+
+.left-part-1 p {
+  font-family: Bahnschrift;
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+}
+
+/* ________________ ПРАВО _______________ */
+
+.text-block , .text-block-3 {
+  position: relative;
+  width: 36%;
+  height: 35%;
+  top: 28%;
+  left: 3%;
+}
+
+.text-block-2 {
+  position: relative;
+  width: 35%;
+  height: 36%;
+  top: 17%;
+  left: 58%;
+}
+
+.vacancies-2 * .text-block-2 {
+  top: 35%;
+}
+
+.text-block-3 {
+  top: 18%;
+}
+
+
+.right-part-1 h1 {
+  font-family: Bahnschrift;
+  font-size: 3em;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1;
+}
+
+.right-part-1 p {
+  position: relative;
+  top: 3%;
+  font-family: Bahnschrift;
+  font-size: 1.1em;
+  font-weight: 100;
+  color: white;
+  line-height: 1.2;
+}
+
+/* ________________ кнопка _______________ */
+
+.button {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:30%;
+}
+
+.button-main {
+  position: relative;
+  width: 60%;
+  height: 70%;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.button-line {
+  position: relative;
+  background-color: red;
+  width: 66%;
+  height: 2%;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.button-main h1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-main h1 {
+  font-family: Bahnschrift;
+  font-size: 1.7em;
+  font-weight: 100;
+  color: white;
+  line-height: 1.2;
+}
+
+.white-line-1 , .white-line-2 {
+  position: relative;
+  background-color: white;
+  width: 6%;
+  height: 1%;
+  top: 20%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.white-line-1 {
+  left: 13%;
+}
+
+.white-line-2 {
+  left: 89%;
+}
