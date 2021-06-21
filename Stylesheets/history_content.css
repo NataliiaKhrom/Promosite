@@ -63,7 +63,6 @@ url("../Fonts/HeliosThinC.ttf") format("ttf");
 @font-face {
 font-family: "HeliosCond-bold";
 font-style: normal;
-font-weight: 400;
 src: url("../Fonts/HeliosCond-Bold.woff") format("woff"),
 url("../Fonts/HeliosCond-Bold.ttf") format("ttf");
 }
