@@ -15,7 +15,8 @@
 top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+ height: 70%;
+ margin-bottom: 15%;
 }
 
 .block_3 {
@@ -53,28 +54,65 @@ top: 0;
   opacity: .3; */
 }
 
-/* ОБЩИЕ */
-h2 {
-  font-family: Bahnschrift;
-  font-size: 2em;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;}
 
 /* ________________ МЕНЮ _______________ */
 
-.menu {
+.menu-2 {
   position: relative;
+  display: block;
   width: 100%;
   height: 7%;
   /*  background-color: red;
     opacity: .3; */
-    overflow-x: hidden;
 }
 
-.menu p {
+
+.menu-big {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.left-part {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100%;
+  padding-left: 3%;
+  text-align: left;
+  left: 0;
+}
+
+.right-part {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100%;
+  padding-right: 3%;
+  float: right;
+  text-align: right;
+  right: 0;
+}
+
+.menu-big a , .menu-big p {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.menu-2 a {
+    text-decoration: none;
 /*  font-family: BlenderProBold, sans-serif; */
   font-family: HeliosThin;
   font-size: 1.3em;
@@ -82,49 +120,77 @@ h2 {
   text-transform: uppercase;
   color: white;
   line-height: 1.2;
-  position: absolute;
   word-wrap: normal;
 }
 
-.menu-left {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 45%;
-  height: 100%;
-  left: 0;
+.menu-2 p {
+    text-decoration: none;
+/*  font-family: BlenderProBold, sans-serif; */
+  font-family: HeliosThin;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  word-wrap: normal;
 }
 
-.menu-right {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 45%;
-  height: 100%;
-  left: 5%;
-  top: 0;
+.nav-links {
+  display: none;
+/*   display: flex;*/
+  justify-content: space-around;
+  width: 90%;
+  text-decoration: none;
 }
 
-.menu-link-1 {
-  position: relative;
-  width: 70%;
-  height: 100%;
-  top: 60%;
-  left: 7%;
+.nav-links li {
+  list-style: none;
 }
 
-.menu-link-2 {
+.burger {
+position: absolute;
+height: 30%;
+width: 20%;
+top: 25%;
+left: 13%;
+}
+
+.line-1  , .line-2 , .line-3 {
   position: relative;
-  width: 60%;
-  height: 100%;
-  top: 60%;
-  left: 45%;
+  width: 30%;
+  height: 10%;
+  background-color: red;
+  margin-top: 5%;
+}
+
+.burger {
+  display: none;
 }
 
 
 /* ___________ ГЛАВНЫЙ ЭКРАН ______________ */
 
-.main-left {
+
+/* ___ ГЛАВНЫЙ ЭКРАН - лого _____ */
+
+.header-logo {
+  position: relative;
+    display: block;
+  width: 13%;
+  height: 20%;
+  top: 3%;
+/*  left: 43.5%; */
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%)
+}
+
+.header-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .main-left {
   position: relative;
     display: inline-block;
     width: 6%;
@@ -139,7 +205,9 @@ h2 {
     height: 100%;
     left: 0;
     top: 0;
-}
+} */
+
+/* ___ ГЛАВНЫЙ ЭКРАН - графика _____ */
 
 .header-text {
   position: relative;
@@ -148,80 +216,79 @@ h2 {
     max-width: 100%;
 }
 
-.header-text h2 {
-    top: 65%;
-    left: 11%;
+.main-section {
+  position: relative;
+    width: 100%;
+    height: 40%;
+    max-width: 100%;
+}
+
+.main-section h2 {
+  width: 80%;
+  max-width: 100%;
+  /* top: 65%; */
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%);
+  position: relative;
+  padding-top: 7%;
+}
+
+
+.main-section h2 {
+    text-align: center;
     font-family: HeliosCond-bold;
     font-size: 3.5em;
     font-weight: 500;
     text-transform: uppercase;
     color: white;
     line-height: 1.2;
-    position: absolute;
     word-wrap: normal;}
+
+/* ___ ГЛАВНЫЙ ЭКРАН - кнопки _____ */
 
 .header-button {
   position: relative;
-  width: 30%;
+  width: 27%;
   height: 20%;
-  top: 3%;
-  left: 35%;
-  /* background-color: red;
-  opacity: .3; */
+  padding-top: 2%;
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%);
 }
-
-/* ___ ГЛАВНЫЙ ЭКРАН - кнопки _____ */
 
 .button-1 {
   position: relative;
   width: 45%;
   display: inline-block;
+  float: left;
 }
 
 .button-1 img {
   display: block;
 }
 
-.button-1 a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: white;
-}
-
-.button-1 a {
-  font-family: Bahnschrift;
-  font-size: 2em;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-}
-
 .button-2 {
   position: relative;
   width: 45%;
   display: inline-block;
+  float: right;
 }
 
 .button-2 img {
   display: block;
+  float: right;
 }
 
-.button-2 a {
+.header-button a {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  text-align: center;
-  color: white;
 }
 
-.button-2 a {
+.header-button a {
   font-family: Bahnschrift;
   font-size: 2em;
   font-weight: 500;
@@ -230,20 +297,16 @@ h2 {
   line-height: 1.2;
 }
 
-/* ___ ГЛАВНЫЙ ЭКРАН - лого _____ */
-
-.header-logo {
-  position: relative;
-  width: 13%;
-  height: 20%;
-  top: 3%;
-  left: 43.5%;
+.button-1 a {
+  padding: 7% 0 0 15%;
 }
 
-.header-logo img {
-  width: 100%;
-  height: 100%;
+.button-2 a {
+  padding: 7% 0 0 25%;
 }
+
+
+
 
 /* ___ ГЛАВНЫЙ ЭКРАН - графика _____ */
 
@@ -261,7 +324,7 @@ h2 {
   height: 40%;
   top: 35%;
   left: 35%;
-  background-color: blue;
+  background-color: red;
 }
 
 .upper {
@@ -278,6 +341,15 @@ h2 {
   height: 10%;
   top: 75%;
   left: 35%;
+}
+
+.graphics-left h2 {
+  font-family: Bahnschrift;
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
 }
 
 /* ___________ НОВОСТИ ______________ */
