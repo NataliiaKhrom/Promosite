@@ -1,42 +1,69 @@
+
+
+/*IPAD HORIZONTAL */
+@media screen and (max-height:900px) and (max-width:1440px) {
+  .block_2 {
+    margin-bottom: 0;}
+
+}
+
+@media screen and (max-width:1439px) {
+
+.square-3 , .square-4 {
+  opacity: 0;}
+}
+
+/*IPAD HORIZONTAL */
+@media screen and (max-width:1024px) {
+
+  .l-news-left-part h1 {
+  font-size: .6em;}
+
+  .l-news-left-part h2 {
+  font-size: 1.2em;}
+
+  .l-news-main h2  {
+    font-size: 1.6em;}
+
+  .l-news-main h1 {
+    font-size: .8em;
+    top: 45%;}
+
+    .l-news-main p {
+    top: 90%;
+    height: 10%;}
+
+}
+
+/* УЗКИЕ ЭКРАНЫ */
+
 @media screen and (max-width:768px) {
 
-/*  .maket {
-    position: absolute;
-     width: 100%;
-     height: 233%;}
+  .block_2 {
+    height: 50%;
+    margin-bottom: 10%;}
 
-  .maket::before {
-    opacity: .3;
-    background: url('../Images/maket_main_mobile.png')  center no-repeat;
-    background-size: auto 100% ;
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 100%;} */
+.block_3 {
+  height: 30%;}
 
 /*ОТКЛЮЧЕНИЕ */
-
 .main-section {
   display: none;}
-
 .menu-big {
   display: none;}
-
 .upper {
   display: none;}
 
-/*ОТКЛЮЧЕНИЕ ВРЕМЕННО */
+/* ФОН */
+.background-1::before {
+background-size: auto 100vh; }
 
-.block_3 {
-  display: none;
+.helmet::before {
+  background-position: left 20%;
 }
 
-.block_4 {
-  display: none;
-}
 
 /*МЕНЮ */
-
 .nav-links {
   position: absolute;
   left: 0;
@@ -56,8 +83,7 @@
     text-transform: uppercase;
     color: white;
     line-height: 1.2;
-    word-wrap: normal;
-}
+    word-wrap: normal;}
 
 .nav-links {
   /* opacity: 0; */}
@@ -67,7 +93,6 @@
   cursor: pointer;}
 
   /* ЛОГОС */
-
   .header-logo {
     position: relative;
     display: inline-block;
@@ -79,8 +104,7 @@
     margin-bottom: -50%;
     transform: translate(0, -50%);}
 
-  /*ГРАФИКА*/
-
+  /*ГРАФИКА главного экрана*/
   .line {
      width: 2%;
      height: 45%;
@@ -94,23 +118,124 @@
     .shorter h2 {
       font-size: .7em;}
 
-      /*ГРАФИКА*/
+  /* НОВОСТИ */
+      .l-news li:first-child {
+          display: none;}
+        .l-news {
+        grid-template-columns: 1fr 1fr;}
+        .c-news {
+        line-height: 500%;}
 
-      .l-news-left-part h2 {
-      font-size: .5em;}
+        .l-news-left-part h2 {
+    font-size: 1.2em;}
+
+      /* ГРАФИКА */
+/* !!исправить */
+    .graphic-main {
+      top: 0;}
+
+    .horizontal {
+      top: -20%;}
+
+    .graphic-line {
+    height: 3%;
+    top: 70%;}
+
+    .graphic-main-text h3 , .graphic-main-text h4 {
+      display: none;}
+
+    /* МЕНЮ */
+
+  .central-line-up {
+    top: 0;
+    width: .15%;
+    height: 10%;}
+
+  .central-line-bottom {
+  height: 10%;
+  width: .15%;
+  top: 100%;}
+
+  .block-central {
+  position: relative;
+  display: block;
+  height: 80%;
+  width: 100%;
+  left: 50%;
+  top: 0%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+    .sect-left , .sect-central , .sect-right {
+    display: block;
+    width: 80%;
+    left: 50%;
+    top: 1%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    margin-bottom: 5%;}
+
+ .sect-left h2, .sect-right h2 , .sect-central h2  {
+   position: relative;
+   display: block;
+  font-size: 2.5em;
+    width: 100%;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  text-align: center;}
+
+  .sect-left h1, .sect-right h1 , .sect-central h1 {
+  position: relative;
+  display: block;
+   font-size: 1.4em;
+     width: 100%;
+   top: 25%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%);
+   text-align: center;}
+
+   .sect-left::before , .sect-central::before {
+     content: '';
+     position: absolute;
+     width: .2%;
+     height: 40%;
+     background-color: white;
+     left: 50%;
+     top: 90%;}
+
+  /* НИЖНЯЯ ГРАФИКА */
+
+  .block_5_graphic {
+      width: 35%;}
+
+      .futor h1 {
+        font-size: .7em;
+      }
+
 }
 
-.nav-active {
-  transform: transitionX(-10%);}
 
 
 
 
+
+/* IPHONE VERTICAL */
 
 @media screen and (max-width:480px) {
 
   .maket {
     display: none;
+  }
+
+  .block_2 {
+    height: 100%;
+  }
+
+  .block_4 {
+    height: 60%;
   }
 
   /*МЕНЮ */
@@ -137,12 +262,10 @@
       }
 
   /* НОВОСТИ */
-
   .main-news {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);}
-
   .header-news h2 {
     font-size: .7em;
     con-align: right;
@@ -151,9 +274,6 @@
     .bottom_line {
     position: relative;
     width: 50%;}
-
-  .l-news li:first-child {
-      display: none;}
 
   .l-news li:last-child {
           display: none;}
@@ -180,21 +300,85 @@
     .l-news-left-part h2 {
     font-size: 1em;}
 
-      /* меню */
+/* МЕНЮ */
+
+.graphic-main-text h1 {
+  font-size: .7em;
+}
+.graphic-main-text h2 {
+  font-size: 1em;
+}
+.graphic-main-text p {
+    font-size: .4em;
+}
+
+
+/* МЕНЮ */
+    /* .central-line-up {
+    height: 10%;} */
+    .central-line-bottom {
+    height: 10%;
+    top: 105%;}
 
     .block-central {
-      width: 100%;}
+    height: 80%;}
 
-      .sect-left , .sect-central , .sect-right {
-      display: block;
-      width: 80%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%);
-      margin-bottom: 5%;}
+.sect-left , .sect-central , .sect-right {
+      top: 10%;}
 
-      .sect-left h2, .sect-right h2 , .sect-central h2 {
-    font-size: 1.5em;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%);}
+.sect-left h2, .sect-right h2 , .sect-central h2 {
+        font-size: 1.5em;}
+
+.sect-left h1, .sect-right h1 , .sect-central h1 {
+         font-size: .9em;}
+
+.sect-left::before , .sect-central::before {
+       width: .1%;
+       top: 100%;}
+
+/* ГРАФИКА */
+       .block_5 h2 {
+    font-size: .6em;}
+
+.graphic-line-white {
+  display: none;
+}
+
+/* ФУТОР */
+
+.futor_logo , .futor_info {height: 40%;}
+
+.futor_info {
+  padding: 6% 1% 2% 0;
+  width: 50%;
+}
+
+.sections , .sections_2 {
+  text-align: left;
+  width: 40%;
+  height: 40%;
+}
+
+.futor {
+  font-size: .6em;}
+
+  .futor li {
+    font-size: .5em;
+  }
+
+.futor h2 {
+  font-size: .8em;
+}
+
+.futor h1 {
+  font-size: .6em;
+}
+
+  .futor a {
+    font-size: .6em;}
+
+
+
+
+       /* КОНЕЦ */
+   }
