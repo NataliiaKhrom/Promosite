@@ -1,0 +1,223 @@
+/* ___________ МЕНЮ______________ */
+.menu-2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 7%;
+  /*  background-color: red;
+    opacity: .3; */
+}
+
+
+.menu-big {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.left-part {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100%;
+  padding-left: 3%;
+  text-align: left;
+  left: 0;
+}
+
+.right-part {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100%;
+  padding-right: 3%;
+  float: right;
+  text-align: right;
+  right: 0;
+}
+
+.menu-big a , .menu-big p {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.menu-2 a {
+    text-decoration: none;
+/*  font-family: BlenderProBold, sans-serif; */
+  font-family: HeliosThin;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  word-wrap: normal;
+}
+
+.menu-2 p {
+    text-decoration: none;
+/*  font-family: BlenderProBold, sans-serif; */
+  font-family: HeliosThin;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  word-wrap: normal;
+}
+
+.nav-links {
+  display: none;
+/*   display: flex;*/
+  justify-content: space-around;
+  width: 90%;
+  text-decoration: none;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.burger {
+position: absolute;
+height: 30%;
+width: 20%;
+top: 25%;
+left: 13%;
+}
+
+.line-1  , .line-2 , .line-3 {
+  position: relative;
+  width: 30%;
+  height: 10%;
+  background-color: red;
+  margin-top: 5%;
+}
+
+.burger {
+  display: none;
+}
+
+
+/* ___________ футор______________ */
+.futor {
+  position: relative;
+  display: block;
+  vertical-align: bottom;
+  background-color: #2C2828;
+  height: 50%;
+}
+
+.futor_2 {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
+.futor_logo , .futor_info , .sections , .sections_2 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 70%;
+  padding: 6% 2% 2% 2%;
+}
+
+.futor_info {
+  padding: 6% 1% 2% 0;
+}
+
+.sections , .sections_2 {
+  text-align: right;
+}
+
+.futor_logo img {
+  display: block;
+  width: 80%;
+}
+
+.futor h2 {
+  font-family: HeliosCond-bold;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  word-wrap: normal;
+  padding-bottom: 5%;
+}
+
+.futor h1 {
+  padding-bottom: 5%;
+}
+
+.futor li {
+  list-style: none; }
+
+  .futor h1 {
+    font-family: HeliosThin;
+    font-size: .8em;
+    font-weight: 200;
+    color: white;
+    line-height: 1.2;
+    word-wrap: normal;}
+
+.futor {
+  font-family: HeliosThin;
+  font-size: .8em;
+  font-weight: 200;
+  color: white;
+  line-height: 1.2;
+  word-wrap: normal;}
+
+  .futor a {
+    position: relative;
+    font-family: HeliosThin;
+    font-size: .8em;
+    font-weight: 200;
+    color: white;
+    line-height: 1.2;
+    word-wrap: normal;
+    margin: 15% 0 0 0;}
+
+
+    @media screen and (max-width:480px) {
+
+      .futor {
+        font-size: .6em;}
+
+        .futor li {
+          font-size: .5em;
+        }
+
+      .futor h2 {
+        font-size: .8em;
+      }
+
+      .futor h1 {
+        font-size: .6em;
+      }
+
+        .futor a {
+          font-size: .6em;}
+
+
+
+
+             /* КОНЕЦ */
+         }
