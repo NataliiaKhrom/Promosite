@@ -70,6 +70,27 @@ h2 {
   position: absolute;
   word-wrap: normal;}
 
+.background-1 {
+  position: absolute;
+  weight: 100%;
+  height: 100%;
+  z-index: -2;
+  top: 0;
+  left: 0;
+
+}
+
+.background-1::before {
+  opacity: .3;
+  background: url('../Images/background.png')  left no-repeat;
+  background-size: auto 100% ;
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+
+}
+
 /* ________________ МЕНЮ _______________ */
 
 .menu {
