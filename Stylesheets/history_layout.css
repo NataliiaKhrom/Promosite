@@ -1,16 +1,62 @@
 
 /* __________________МЕНЮ_____________________ */
 
-.menu {
+.menu-2 {
   position: relative;
+  display: block;
   width: 100%;
   height: 7%;
   /*  background-color: red;
     opacity: .3; */
-    overflow-x: hidden;
 }
 
-.menu p {
+
+.menu-big {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.left-part {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100%;
+  padding-left: 3%;
+  text-align: left;
+  left: 0;
+}
+
+.right-part {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: 100%;
+  padding-right: 3%;
+  float: right;
+  text-align: right;
+  right: 0;
+}
+
+.menu-big a , .menu-big p {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.menu-2 a {
+    text-decoration: none;
 /*  font-family: BlenderProBold, sans-serif; */
   font-family: HeliosThin;
   font-size: 1.3em;
@@ -18,53 +64,63 @@
   text-transform: uppercase;
   color: white;
   line-height: 1.2;
-  position: absolute;
   word-wrap: normal;
 }
 
-.menu-left {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 45%;
-  height: 100%;
-  left: 0;
+.menu-2 p {
+    text-decoration: none;
+/*  font-family: BlenderProBold, sans-serif; */
+  font-family: HeliosThin;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  word-wrap: normal;
 }
 
-.menu-right {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 45%;
-  height: 100%;
-  left: 5%;
-  top: 0;
+.nav-links {
+  display: none;
+/*   display: flex;*/
+  justify-content: space-around;
+  width: 90%;
+  text-decoration: none;
 }
 
-.menu-link-1 {
-  position: relative;
-  width: 70%;
-  height: 100%;
-  top: 60%;
-  left: 7%;
+.nav-links li {
+  list-style: none;
 }
 
-.menu-link-2 {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  top: 60%;
-  left: 45%;
+.burger {
+position: absolute;
+height: 30%;
+width: 20%;
+top: 25%;
+/* left: 85%; */
+right: 5%;
+float: right;
 }
 
+.line-1  , .line-2 , .line-3 {
+  position: relative;
+  width: 30%;
+  height: 10%;
+  background-color: red;
+  margin-top: 5%;
+}
 
+.burger {
+  display: none;
+}
+
+/* __________________ГЛАВНЫЙ_____________________ */
 
 .main {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 210%;
+/*  height: 210%; */
 }
 
 /* __________________ЗАГОЛОВОК_____________________ */
@@ -97,7 +153,8 @@
 
 .timeline-section {
   min-height: 100vh;
-  padding: 5% 10%;
+  /* padding: 5% 10%; */
+  padding: 5% 10% 20% 10%;
 }
 
 .timeline-items::before {
@@ -213,29 +270,94 @@ text-align: right;
   top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 47%;
+  margin-bottom: 10vh;
 }
 
-/* __________________РЕСПОНСИВ_____________________ */
-@media(max-width: 767px) {
-.timeline-items::before {
-  width: .2%;
-  left: 1%;
-}
-.square {
-  height: 4vw;
-  width: 4vw;
-  border: .3vw solid red;
-  position: absolute;
-  left: 1%;
-  top: 22%;
-}
-.square-2 {
-display: none;
-}
-.timeline-item:nth-child(even){
-  padding-right: 1%;
-text-align: left;}
-  .timeline-item:nth-child(odd) , .timeline-item:nth-child(even) {
-    padding-left: 3%;}
-}
+
+.banner-center {
+  position: relative;
+  width: 63%;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+  .banner_logo {
+    position: relative;
+    width: 35%;
+    height: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .banner_logo img {
+    display: block;
+    width: 100%;
+  }
+
+
+  .graphic h2 {
+      position: relative;
+      padding-top: 5%;
+      font-family: HeliosThin;
+      font-size: 2em;
+      font-weight: 200;
+      color: white;
+      line-height: 1;
+      text-align: center;
+  }
+
+  .white-line , .red-line {
+  position: relative;
+  background-color: white;
+  width: 35%;
+  height: .3vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+  .white-line {
+  margin-top: 14%;
+  background-color: white;
+  width: 65%;}
+
+    .red-line {
+      margin-top: 3%;
+      background-color: red;
+      width: 85%;}
+
+
+        .graphic h1 {
+            position: relative;
+            padding-top: 3%;
+            font-family: HeliosThin;
+            font-size: 2em;
+            font-weight: 200;
+            color: white;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .mirrorX {
+          transform: scaleX(-1);}
+
+        .border-left, .border-right  {
+          position: absolute;
+          top: 14%;
+          width: 15%;
+        }
+          .border-left {
+            left: 1%;
+          }
+        .border-right {
+          left: 89%;
+        }
+
+        .border-left img , .border-right img {
+          display: block;
+        }
+
+
+/* __________________ГРАФИКА_____________________ */
