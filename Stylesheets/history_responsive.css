@@ -1,0 +1,91 @@
+
+/* __________________РЕСПОНСИВ_____________________ */
+@media(max-width: 768px) {
+
+  /* __________МЕНЮ________ */
+
+  .menu-big {
+    display: none;}
+
+  .nav-links {
+    position: absolute;
+    height: 15vh;
+    right: 8%;
+    top: 8vh;
+    /* left: 13vw; */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: right;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;}
+
+  .menu-2 a {
+    font-family: HeliosThin;
+      font-size: .9em;
+      font-weight: 200;
+      text-transform: uppercase;
+      color: white;
+      line-height: 1.2;
+      word-wrap: normal;}
+
+  .nav-links {
+    /* opacity: 0; */}
+
+  .burger {
+    display: block;
+    cursor: pointer;}
+
+/* _________ТАЙМЛАЙН________ */
+
+.timeline-items {
+    max-width: 90%;}
+
+.timeline-section {
+    padding: 5% 5% 20% 2%;}
+
+.timeline-items::before {
+  width: .2%;
+  left: 1%;
+}
+.square {
+  height: 4vw;
+  width: 4vw;
+  border: .3vw solid red;
+  position: absolute;
+  left: 1%;
+  top: 22%;
+}
+.square-2 {
+display: none;
+}
+.timeline-item:nth-child(even){
+  padding-right: 1%;
+text-align: left;}
+  .timeline-item:nth-child(odd) , .timeline-item:nth-child(even) {
+    padding-left: 10%;}
+}
+
+
+  @media screen and (max-width:480px) {
+
+    .graphic {
+      display: none;
+    }
+
+    .headline h1 {
+    font-size: 2em;
+    left: 5%;
+     transform: translate(0);}
+
+     .date {
+     font-size: 5em;}
+
+     .burger {
+    left: none;
+    right: 10%;}
+
+
+
+    /* conec */
+  }
