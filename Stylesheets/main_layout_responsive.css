@@ -97,14 +97,12 @@ mix-blend-mode: screen;
 
 
 /* ________________ МЕНЮ _______________ */
-
+/*
 .menu-2 {
   position: relative;
   display: block;
   width: 100%;
   height: 7%;
-  /*  background-color: red;
-    opacity: .3; */
 }
 
 
@@ -154,7 +152,6 @@ nav {
 
 .menu-2 a {
     text-decoration: none;
-/*  font-family: BlenderProBold, sans-serif; */
   font-family: HeliosThin;
   font-size: 1.3em;
   font-weight: 200;
@@ -166,7 +163,6 @@ nav {
 
 .menu-2 p {
     text-decoration: none;
-/*  font-family: BlenderProBold, sans-serif; */
   font-family: HeliosThin;
   font-size: 1.3em;
   font-weight: 200;
@@ -178,7 +174,6 @@ nav {
 
 .nav-links {
   display: none;
-/*   display: flex;*/
   justify-content: space-around;
   width: 90%;
   text-decoration: none;
@@ -207,7 +202,7 @@ left: 13%;
 .burger {
   display: none;
 }
-
+*/
 
 /* ___________ ГЛАВНЫЙ ЭКРАН ______________ */
 
@@ -1008,80 +1003,3 @@ white-space: nowrap;}
   top: 0;
   width: 10%;
 }
-
-/* ___________ футор______________ */
-.futor {
-  position: relative;
-  display: block;
-  vertical-align: bottom;
-  background-color: #2C2828;
-  height: 50%;
-}
-
-.futor_2 {
-  position: relative;
-  display: block;
-  height: 100%;
-  width: 90%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%);
-}
-
-.futor_logo , .futor_info , .sections , .sections_2 {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  height: 70%;
-  padding: 6% 2% 2% 2%;
-}
-
-.futor_info {
-  padding: 6% 1% 2% 0;
-}
-
-.sections , .sections_2 {
-  text-align: right;
-}
-
-.futor_logo img {
-  display: block;
-  width: 80%;
-}
-
-.futor h2 {
-  font-family: HeliosCond-bold;
-  font-size: 1em;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;
-  padding-bottom: 5%;
-}
-
-.futor h1 {
-  padding-bottom: 5%;
-}
-
-.futor li {
-  list-style: none; }
-
-.futor {
-  font-family: HeliosThin;
-  font-size: .8em;
-  font-weight: 200;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;}
-
-  .futor a {
-    position: relative;
-    font-family: HeliosThin;
-    font-size: .8em;
-    font-weight: 200;
-    color: white;
-    line-height: 1.2;
-    word-wrap: normal;
-    margin: 15% 0 0 0;}
