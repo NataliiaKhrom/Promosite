@@ -15,8 +15,6 @@
 
 /* ________________ МЕНЮ _______________ */
 
-/* ________________ МЕНЮ _______________ */
-
 .menu {
   position: relative;
   width: 100%;
@@ -122,9 +120,160 @@
   background: red;
 }
 
+/* slider */
+
+/* element.style {
+    width: 70vw;
+    height: 80vh;
+} */
+
+.slider {
+/*  margin: 2% 10% 2% 10%; */
+ margin: 0% 15% 0% 20%;
+ }
+
+.picture{
+  position: relative;
+  display: inline-block;
+    vertical-align: top;
+  width: 48%;
+  height: 80%;
+  padding: 5% 5% 5% 5%;
+}
+.picture img {
+  display: block;
+  width: 70%;
+  position: absolute;
+}
+
+.info {
+  position: relative;
+  display: inline-block;
+    vertical-align: top;
+  width: 40%;
+  max-width: 40%;
+  height: 80%;
+  padding-top: 5%;
+}
+
+.info h2 {
+position: relative;
+width: 70%;
+padding: 55% 0 2% 0;
+}
+
+.line {
+  position: relative;
+  background-color: red;
+  width: 50%;
+  height:.2vh;
+  top: 2%;
+}
+
+.info p {
+  position: relative;
+  width: 100%;
+  padding: 8% 0 15% 0;
+}
+
+.apply {
+  position: relative;
+  width: 70%;
+  margin-bottom: 20%;
+}
+
+.apply a {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  top: 2vh;
+}
+.apply img {}
+
+.info a {
+  text-decoration: none;
+  font-family: HeliosThin;
+  font-size: 2em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+}
 
 
-/* ________________ ЗАГОЛОВОК _______________ */
+.info h2 {
+  font-family: HeliosThin;
+  font-size: 2em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+}
+
+.info p {
+  font-family: HeliosThin;
+  font-size: 1.2em;
+  font-weight: 200;
+  color: white;
+}
+
+#slick-slide-control00 , #slick-slide-control01 , #slick-slide-control02 {
+  width: 1.5vw;
+  height: 1.5vw;
+  border: .1vw solid red;
+  background: black;
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+  z-index: 2;
+}
+
+/*
+button {
+  width: 1.5vw;
+  height: 1.5vw;
+  border: .1vw solid red;
+  background: black;
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+  z-index: 2;
+}
+*/
+
+ul.slick-dots  {
+  margin: 0;
+  padding: 10% 0 0 20%;
+  margin-right: auto;
+}
+
+ul.slick-dots li
+{ display: inline;
+  padding: 0 20% 0 0;}
+
+.slick-arrow {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  color: red;
+  background-color: black;
+  top: 96%;
+  left: 65%;
+}
+
+.slick-prev:before {
+    content: '←'}
+
+.slick-next:before {
+    content: '→';}
+
+.slick-prev:before, .slick-next:before {
+font-family: 'slick';
+font-size: 20px;
+line-height: 1;
+color: white;}
+
+
+/* ________________ _______________
 
 .left {
   position: relative;
@@ -204,3 +353,5 @@ padding-left: 8%;
   font-weight: 200;
   color: white;
 }
+
+*/
