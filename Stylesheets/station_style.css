@@ -3,4 +3,5 @@
 @import 'station_content.css';
 /* @import "main_layout.css"; */
 @import "station_layout.css";
-@import "responsive.css";
+@import "permanent.css";
+@import "station_responsive.css";
