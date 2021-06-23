@@ -261,6 +261,7 @@ ul.slick-dots li
 }
 
 .slick-dots::before {
+  display: block;
   content: '';
   background-color: red;
   width: 10vw;
