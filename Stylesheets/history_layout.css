@@ -130,15 +130,18 @@ float: right;
   top: 0;
   left: 0;
   width: 100%;
-  height: 20%;
+/*  height: 20%; */
 }
 
 .headline h1  {
-  position: absolute;
-  top: 40%;
+  position: relative;
+  margin: 5% 0 4% 0;
+  text-align: center;
+
+  /* top: 40%;
   left: 50%;
   transform: translate(-50%);
-/*  margin-right: -50%;
+  margin-right: -50%;
   transform: translate(-50%, -50%); */
 }
 
@@ -146,7 +149,6 @@ float: right;
   font-family: Bahnschrift;
   color: #cdcdcd;
   font-size: 4em;
-  margin: 0;
 }
 
 /* __________________ХРОНОЛОГИЯ_____________________ */
