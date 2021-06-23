@@ -260,6 +260,15 @@ ul.slick-dots li
   left: 65%;
 }
 
+.slick-dots::before {
+  content: '';
+  background-color: red;
+  width: 10vw;
+  height: 5vh;
+}
+
+/* #slick-slide-control01, #slick-slide-control02  */
+
 .slick-prev:before {
     content: '←'}
 
