@@ -15,12 +15,21 @@
 
 <!-- __________________JAVA_____________________ -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="Libs/carousel/carousel-vertical.js"></script>
+<script src="/Libs/carousel/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="Libs/carousel/scss/carousel-vertical.css" />
+
 <script type="text/javascript">
  $(document).ready(function() {
    $(window).scrollTop(0);
-
    });
 
+ $(function() {
+   $('.cv-carousel').carouselVertical({
+     margin: 20,
+     items: 3
+   })
+});
 
 </script>
 
@@ -39,29 +48,29 @@
 
 <div class="menu-big">
 <div class="left-part">
-<a href="#">ИСТОРИЯ</a>
+<a href="main.html">НА ГЛАВНУЮ</a>
 <p>|</p>
-<a href="#">БЛИЖАЙШИЙ УЧАСТОК</a>
+<a href="history.html">ИСТОРИЯ</a>
 </div>
 <div class="right-part">
-<a href="#">КУРСЫ БЕЗОПАСНОСТИ</a>
+<a href="station.html">БЛИЖАЙШИЙ УЧАСТОК</a>
 <p>|</p>
-<a href="#">ВАКАНСИИ</a>
+<a href="courses.html">КУРСЫ БЕЗОПАСНОСТИ</a>
 </div>
 </div>
 
 <ul class="nav-links">
 <li>
-<a href="#">ИСТОРИЯ</a>
+<a href="main.html">НА ГЛАВНУЮ</a>
 </li>
 <li>
-<a href="#">БЛИЖАЙШИЙ УЧАСТОК</a>
+<a href="history.html">ИСТОРИЯ</a>
 </li>
 <li>
-<a href="#">КУРСЫ БЕЗОПАСНОСТИ</a>
+<a href="station.html">БЛИЖАЙШИЙ УЧАСТОК</a>
 </li>
 <li>
-<a href="#">ВАКАНСИИ</a>
+<a href="courses.html">КУРСЫ БЕЗОПАСНОСТИ</a>
 </li>
 </ul>
 
@@ -83,10 +92,34 @@
       <h1>ВАКАНСИИ</h1>
     </div>
 
-    <div class="choice">
-
-    </div>
+<div class="right-graphic">
+  <div class="line-right">
+    <h1>НЕТ СВОБОДНЫХ МЕСТ</h1>
+    <h2>45 ВЕНЕРА <br> 65 ВОДОЛЕЙ <br> 120 ЦЕРЕРА</h2>
   </div>
+
+</div>
+
+<div class="border">
+  <img src="Images/border_vac.svg" alt="">
+</div>
+
+<div class="line_vac">
+  <img src="Images/line_vac.svg" alt="">
+</div>
+
+      <div class="cv-carousel">
+        <div class="item"><h4>ТЕХНОЛОГ</h4></div>
+         <div class="item"><h4>СЛЕДОВАТЕЛЬ</h4></div>
+         <div class="item"><h4>ПИЛОТ</h4></div>
+         <div class="item"><h4>ПОМОЩНИК ПИЛОТА</h4></div>
+          <div class="item"><h4>КОСМОЗООЛОГ</h4></div>
+          <div class="item"><h4>НАБЛЮДАТЕЛЬ</h4></div>
+</div>
+
+  </div>
+
+
 
 
 
