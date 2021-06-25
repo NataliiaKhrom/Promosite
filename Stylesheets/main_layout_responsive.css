@@ -917,7 +917,7 @@ white-space: nowrap;}
 .mobile_block {
     display: none;
     position: absolute;
-    width: 30%;
+    width: 40%;
     height: 40%;
     left: 10%;
     top: 60%; }
@@ -928,23 +928,23 @@ white-space: nowrap;}
 }
 
 .mobile_block h2 {
-  width: 80%;
-  font-family: Bahnschrift;
-  color: #FF5959;
-  position: absolute;
-  margin: 0;
-  top: 5%;
-  left: 5%;
-  font-size: 1em;
+  width: 70%;
+      font-family: Bahnschrift;
+      color: #FF5959;
+      position: absolute;
+      margin: 0;
+      top: 10%;
+      left: 10%;
+      font-size: 1.5em;
 }
 
 .mobile_block h1 {
-  width: 80%;
-  font-family: Roboto;
-  color: white;
-  position: absolute;
-  margin: 0;
-  top: 25%;
-  left: 5%;
-  font-size: .7em;
+  width: 75%;
+      font-family: Roboto;
+      color: white;
+      position: absolute;
+      margin: 0;
+      top: 30%;
+      left: 10%;
+      font-size: 1em;
 }
