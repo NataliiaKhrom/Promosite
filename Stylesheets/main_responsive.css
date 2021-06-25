@@ -39,6 +39,9 @@
 
 @media screen and (max-width:768px) {
 
+  .mobile_block {
+    display: block;}
+
   .block_2 {
     height: 50%;
     margin-bottom: 10%;}
