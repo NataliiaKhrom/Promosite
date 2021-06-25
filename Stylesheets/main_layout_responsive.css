@@ -11,48 +11,35 @@
 
 .block_2 {
   position: relative;
-/*  top: 100%; */
 top: 0;
   left: 0;
   width: 100%;
-/* height: 70%; */
 padding-top: 3%;
 padding-bottom: 5%;
 }
 
 .block_3 {
   position: relative;
-  /* top: 170%; */
   top: 0;
   left: 0;
   width: 100%;
   height: 43%;
- /* background-color: white;
-  opacity: .3;*/
 }
 
 .block_4 {
-  /*position: absolute; */
   position: relative;
-  /* top: 213%; */
   top: 0;
   left: 0;
   width: 100%;
   height: 52%;
-/*  background-color: red;
-  opacity: .3;*/
 }
 
 .block_5 {
-  /*position: absolute; */
   position: relative;
-/*   top: 265%; */
   top: 0;
   left: 0;
   width: 100%;
   height: 40%;
-/*   background-color: blue;
-  opacity: .3; */
 }
 
 .background-1 {
@@ -77,6 +64,7 @@ padding-bottom: 5%;
 .helmet {
   position: absolute;
 mix-blend-mode: screen;
+opacity: .6;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -93,117 +81,8 @@ mix-blend-mode: screen;
  position: absolute;
  width: 100%;
  height: 100%;
-
 }
 
-
-/* ________________ МЕНЮ _______________ */
-/*
-.menu-2 {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 7%;
-}
-
-
-.menu-big {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.left-part {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  height: 100%;
-  padding-left: 3%;
-  text-align: left;
-  left: 0;
-}
-
-.right-part {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  height: 100%;
-  padding-right: 3%;
-  float: right;
-  text-align: right;
-  right: 0;
-}
-
-.menu-big a , .menu-big p {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 7%;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-.menu-2 a {
-    text-decoration: none;
-  font-family: HeliosThin;
-  font-size: 1.3em;
-  font-weight: 200;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;
-}
-
-.menu-2 p {
-    text-decoration: none;
-  font-family: HeliosThin;
-  font-size: 1.3em;
-  font-weight: 200;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-  word-wrap: normal;
-}
-
-.nav-links {
-  display: none;
-  justify-content: space-around;
-  width: 90%;
-  text-decoration: none;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.burger {
-position: absolute;
-height: 30%;
-width: 20%;
-top: 25%;
-left: 13%;
-}
-
-.line-1  , .line-2 , .line-3 {
-  position: relative;
-  width: 30%;
-  height: 10%;
-  background-color: red;
-  margin-top: 5%;
-}
-
-.burger {
-  display: none;
-}
-*/
 
 /* ___________ ГЛАВНЫЙ ЭКРАН ______________ */
 
@@ -216,16 +95,13 @@ left: 13%;
   width: 13%;
   height: 20%;
   top: 3%;
-/*  left: 43.5%; */
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%)
-}
+  transform: translate(-50%);}
 
 .header-logo img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%;}
 
 /* ___ ГЛАВНЫЙ ЭКРАН - графика _____ */
 
@@ -246,24 +122,12 @@ left: 13%;
 .main-section h2 {
   width: 80%;
   max-width: 100%;
-  /* top: 65%; */
   left: 50%;
   margin-right: 50%;
   transform: translate(-50%);
   position: relative;
   padding-top: 7%;
 }
-
-
-.main-section h2 {
-    text-align: center;
-    font-family: HeliosCond-bold;
-    font-size: 3.5em;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: white;
-    line-height: 1.2;
-    word-wrap: normal;}
 
 /* ___ ГЛАВНЫЙ ЭКРАН - кнопки _____ */
 
@@ -275,6 +139,10 @@ left: 13%;
   left: 50%;
   margin-right: 50%;
   transform: translate(-50%);
+}
+
+.header-button a {
+  text-decoration: none;
 }
 
 .button-1 {
@@ -308,15 +176,6 @@ left: 13%;
   height: 100%;
 }
 
-.header-button a {
-  font-family: Bahnschrift;
-  font-size: 2em;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: white;
-  line-height: 1.2;
-}
-
 .button-1 a {
   padding: 7% 0 0 15%;
 }
@@ -324,9 +183,6 @@ left: 13%;
 .button-2 a {
   padding: 7% 0 0 25%;
 }
-
-
-
 
 /* ___ ГЛАВНЫЙ ЭКРАН - графика _____ */
 
@@ -344,7 +200,7 @@ left: 13%;
   height: 40%;
   top: 35%;
   left: 35%;
-  background-color: red;
+  background-color: #FF5959;
 }
 
 .upper {
@@ -361,6 +217,28 @@ left: 13%;
   height: 10%;
   top: 75%;
   left: 35%;
+}
+
+
+/* _____________ ГЛАВНЫЙ ЭКРАН - НАСТРОЙКИ ТЕКСТА _______________ */
+
+.main-section h2 {
+    text-align: center;
+    font-family: HeliosCond-bold;
+    font-size: 3.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1.2;
+    word-wrap: normal;}
+
+.header-button a {
+  font-family: Bahnschrift;
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
 }
 
 .graphics-left h2 {
@@ -390,7 +268,7 @@ height: 5%;
   position: relative;
     width: 20%;
     height: .5vh;
-    background-color: red;
+    background-color: #FF5959;
     top: 75%;
     left: 0%;
     margin-bottom: 5%;
@@ -483,26 +361,6 @@ a {
 *, :after, :before {
     box-sizing: inherit;}
 
-.c-news h3 {
-    font-family: Bahnschrift;
-    font-weight: 300;
-    line-height: 120%;
-    color: #cdcdcd;
-    font-size: 2em;
-    margin: 0;
-    width: 100%;
-    word-break: break-word;}
-
-.c-news h2 {
-   font-family: BlenderProBold,sans-serif;
-   font-weight: 700;
-   color: #cdcdcd;
-   font-size: 1em;
-   margin: 0;
-   width: 100%;
-   word-break: break-word;}
-
-
 
 
 
@@ -521,7 +379,14 @@ a {
 /* ПОЛОЖЕНИЕ */
 .l-news-right-part img {
   display: block;
+  margin-top: 10%;
   width: 85%;
+}
+
+.l-news-right-part p {
+  text-align: right;
+  padding-top: 7%;
+  width: 70%;
 }
 
 .l-news-left-part p {
@@ -550,42 +415,6 @@ a {
   left: 7%;
   width: 100%;
   height: 20%;
-  color: white;
-}
-
-/* ШРИФТ */
-
-.l-news-left-part p {
-  font-family: Bahnschrift;
-  font-weight: 100;
-  line-height: 120%;
-  color: #cdcdcd;
-  font-size: .8em;
-  margin: 0;
-  /* width: 100%; */
-  word-break: break-word;
-}
-
-.l-news-left-part h1 {
-  font-family: Bahnschrift;
-  font-weight: 100;
-  line-height: 120%;
-  color: #cdcdcd;
-  font-size: 1em;
-  margin: 0;
-  /* width: 100%; */
-  word-break: break-word;
-}
-
-.l-news-left-part h2 {
-  font-family: Bahnschrift;
-  font-weight: 300;
-  line-height: 120%;
-  color: #cdcdcd;
-  font-size: 1.5em;
-  margin: 0;
-  /* width: 100%; */
-  word-break: break-word;
 }
 
 
@@ -595,7 +424,6 @@ a {
   display: inline-block;
 }
 
-/* ПОЛОЖЕНИЕ */
 
 .l-news-main p {
   position: absolute;
@@ -626,7 +454,58 @@ a {
   color: white;
 }
 
-/* ШРИФТ */
+/* _____________ НОВОСТИ - НАСТРОЙКИ ТЕКСТА _______________ */
+
+.c-news h3 {
+    font-family: Bahnschrift;
+    font-weight: 300;
+    line-height: 120%;
+    color: #cdcdcd;
+    font-size: 2em;
+    margin: 0;
+    width: 100%;
+    word-break: break-word;}
+
+.c-news h2 {
+   font-family: BlenderProBold,sans-serif;
+   font-weight: 700;
+   color: #cdcdcd;
+   font-size: 1em;
+   margin: 0;
+   width: 100%;
+   word-break: break-word;}
+
+.l-news-left-part p {
+  font-family: Bahnschrift;
+  font-weight: 100;
+  line-height: 120%;
+  color: #cdcdcd;
+  font-size: .8em;
+  margin: 0;
+  word-break: break-word;
+}
+
+.l-news-left-part h1 {
+  font-family: Bahnschrift;
+  font-weight: 100;
+  line-height: 120%;
+  color: #cdcdcd;
+  font-size: 1em;
+  margin: 0;
+  word-break: break-word;
+}
+
+.l-news-left-part h2 {
+  color: #FF5959;
+  font-family: Bahnschrift;
+  font-weight: 300;
+  line-height: 120%;
+  font-size: 1.5em;
+  margin: 0;
+  /* width: 100%; */
+  word-break: break-word;
+}
+
 
 .l-news-main p {
   font-family: Bahnschrift;
@@ -635,7 +514,6 @@ a {
   color: #cdcdcd;
   font-size: .8em;
   margin: 0;
-  /* width: 100%; */
   word-break: break-word;
 }
 
@@ -643,10 +521,9 @@ a {
   font-family: Bahnschrift;
   font-weight: 100;
   line-height: 120%;
-  color: #cdcdcd;
+  color: #F8F8F8;
   font-size: 1em;
   margin: 0;
-  /* width: 100%; */
   word-break: break-word;
 }
 
@@ -654,10 +531,9 @@ a {
   font-family: Bahnschrift;
   font-weight: 300;
   line-height: 120%;
-  color: #cdcdcd;
+  color: #FF5959;;
   font-size: 2em;
   margin: 0;
-  /* width: 100%; */
   word-break: break-word;
 }
 
@@ -730,29 +606,6 @@ a {
             transform: translate(-50%, -50%);
           }
 
-    /* ЩШРИФТ */
-
-    .graphic-main-text h1 {
-      text-align: center;
-        color: #cdcdcd;
-        font-size: 1em;
-        margin: 0;
-      }
-
-    .graphic-main-text h2 {
-      text-align: center;
-        color: #cdcdcd;
-        font-size: 4em;
-        margin: 0;
-      }
-
-  .graphic-main-text p {
-    text-align: center;
-        color: #cdcdcd;
-        font-size: 1em;
-      }
-
-
       .square-1  , .square-2  {
         position: absolute;
         width: 1vw;
@@ -768,7 +621,6 @@ a {
 
         .square-2 {
           left: 66%; }
-
 
 
 
@@ -806,7 +658,7 @@ a {
        /* left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%); */
-      background-color: red;
+      background-color: #FF5959;
     }
 
     .left-t , .left-plus, .right-t , .right-plus {
@@ -833,6 +685,31 @@ a {
   .right-plus img , .right-t  img  {
     float: right;
   }
+
+
+
+    /* _____________ ГРАФИКА - НАСТРОЙКИ ТЕКСТА _______________ */
+
+        .graphic-main-text h1 {
+          text-align: center;
+            color: #cdcdcd;
+            font-size: 1em;
+            margin: 0;
+          }
+
+        .graphic-main-text h2 {
+          text-align: center;
+            color: #cdcdcd;
+            font-size: 4em;
+            margin: 0;
+          }
+
+      .graphic-main-text p {
+        text-align: center;
+            color: #cdcdcd;
+            font-size: 1em;
+          }
+
 
 
 
@@ -865,6 +742,11 @@ a {
 
 
 /* ___________ ТЕКСТ ______________ */
+
+.block_4 a {
+  text-decoration: none;
+  color: white;
+}
 
 .sect-left {
   position: relative;
