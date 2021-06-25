@@ -89,6 +89,15 @@ text-align: left;}
 
   @media screen and (max-width:480px) {
 
+    .nav-links {
+      width: 23%;
+    }
+
+    .square-fill-2 {
+    height: 2vw;
+    width: 2vw;
+    top: 21%;}
+
     .graphic {
       display: none;
     }
