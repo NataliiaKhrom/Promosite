@@ -5,7 +5,7 @@
  */
 /**
  * Style for basic display the carousel
- * 
+ *
  * TODOS
  *   divide the theme
  */
@@ -83,6 +83,7 @@
 
 .cv-carousel .cv-nav .cv-prev,
 .cv-carousel .cv-nav .cv-next {
+  display: none;
   margin: .3125rem;
   padding: .25rem .4375rem;
   font-size: .875rem;
