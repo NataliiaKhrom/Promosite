@@ -431,7 +431,7 @@ top: 70vh;}
 
 .background-1_vc::before {
   background: url('../Images/vac_back_1.png')  center no-repeat;
-  background-size: auto 100%;
+  background-size: 100%;
  content: "";
  position: absolute;
  width: 100%;
@@ -452,7 +452,7 @@ top: 70vh;}
 
 .background-2_vc::before {
   background: url('../Images/vac_back_2.png')  center no-repeat;
-  background-size:  auto 100%;
+  background-size:  100vw;
  content: "";
  position: absolute;
  width: 100%;
@@ -471,7 +471,7 @@ top: 70vh;}
 
 .background-3_vc::before {
   background: url('../Images/vac_back_3.png')  center no-repeat;
-  background-size:  auto 100%;
+  background-size:  100vw;
  content: "";
  position: absolute;
  width: 100%;
@@ -491,7 +491,66 @@ top: 70vh;}
 
 .background-4_vc::before {
   background: url('../Images/vac_back_4.png')  center no-repeat;
-  background-size:  auto 100%;
+  background-size: 100vw;
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+
+
+.background-1_st {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  top: 14%;
+  left: 0;
+
+}
+
+.background-1_st::before {
+  background: url('../Images/st_back_1.png')  center no-repeat;
+  background-size: 100%;
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+
+
+.background-2_st {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  top: 115%;
+  left: 0;
+
+}
+
+.background-2_vc::before {
+  background: url('../Images/st_back_2.png')  center no-repeat;
+  background-size:  100vw;
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+
+.background-3_st {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  top: 200%;
+  left: 0;
+
+}
+
+.background-3_st::before {
+  background: url('../Images/st_back_3.png')  center no-repeat;
+  background-size:  100vw;
  content: "";
  position: absolute;
  width: 100%;
