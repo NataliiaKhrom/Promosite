@@ -115,8 +115,20 @@ left: 13%;
   position: relative;
   display: block;
   vertical-align: bottom;
-  background-color: #2C2828;
+  background-color: black;
   height: 50%;
+}
+
+.futor-line {
+  height: .1vh;
+position: relative;
+display: block;
+  width: 80%;
+  margin-top: 3%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  background-color: white;
 }
 
 .futor_2 {
@@ -135,11 +147,11 @@ left: 13%;
   vertical-align: top;
   width: 20%;
   height: 70%;
-  padding: 6% 2% 2% 2%;
+  padding: 9% 2% 2% 2%;
 }
 
 .futor_info {
-  padding: 6% 1% 2% 0;
+  padding: 9% 1% 2% 0;
 }
 
 .sections , .sections_2 {
@@ -148,7 +160,12 @@ left: 13%;
 
 .futor_logo img {
   display: block;
-  width: 80%;
+  width: 90%;
+}
+
+.futor_logo {
+  width: 13%;
+padding: 6% 2% 0% 8%;
 }
 
 .futor h2 {
