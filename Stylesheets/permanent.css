@@ -155,7 +155,7 @@ display: block;
 }
 
 .sections , .sections_2 {
-  text-align: right;
+  text-align: left;
 }
 
 .futor_logo img {
@@ -166,6 +166,10 @@ display: block;
 .futor_logo {
   width: 13%;
 padding: 6% 2% 0% 8%;
+}
+
+.futor h2 {
+  border-bottom: .1vh solid white;
 }
 
 .futor h2 {
@@ -186,7 +190,12 @@ padding: 6% 2% 0% 8%;
 .futor li {
   list-style: none; }
 
+.futor ul {
+  margin-top: 5%;
+}
+
   .futor h1 {
+    margin-top: 5%;
     font-family: HeliosThin;
     font-size: .8em;
     font-weight: 200;
