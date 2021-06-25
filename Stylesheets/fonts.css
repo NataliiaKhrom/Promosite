@@ -1,0 +1,61 @@
+@font-face {
+font-family: "MK-90";
+src: url("../Fonts/MK-90.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;}
+
+@font-face {
+font-family: "HeliosCond";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/HeliosCond.woff") format("woff"),
+url("../Fonts/HeliosCond.ttf") format("ttf");
+}
+
+
+@font-face {
+font-family: "HeliosThin";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/HeliosThinC.woff2") format("woff2"),
+url("../Fonts/HeliosThinC.woff") format("woff"),
+url("../Fonts/HeliosThinC.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "HeliosCond-bold";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/HeliosCond-Bold.woff") format("woff"),
+url("../Fonts/HeliosCond-Bold.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "Bahnschrift";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/BAHNSCHRIFT.ttf") format("ttf")ю
+src: url("../Fonts/BAHNSCHRIFT 1.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "Roboto-light";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/Roboto-Light.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+font-family: "Gillroy";
+font-style: normal;
+font-weight: 400;
+src: url("../Fonts/Gilroy-Medium.woff") format("woff"),
+url("../Fonts/Gilroy-Medium.woff2") format("woff2");
+}
