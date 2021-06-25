@@ -380,6 +380,22 @@ background-size: auto 100vh; }
   .futor a {
     font-size: .6em;}
 
+    .mobile_block h2 {
+          font-size: .9em;
+          left: 10%;
+    }
+
+    .mobile_block h1 {
+  font-size: .7em;
+  top: 40%;
+    }
+
+    .mobile_block {
+    display: none;
+    position: absolute;
+    width: 60%;
+    height: 40%;}
+
 
 
 
