@@ -1,4 +1,21 @@
 
+.background {
+      position: absolute;
+      top: 20%;
+      height: 260%;
+      width: 100%;
+}
+
+.background::before {
+  background: url('../Images/history-background.png')  center no-repeat;
+  mix-blend-mode: hard-light;
+  background-size: 100% ;
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+
 /* __________________МЕНЮ_____________________ */
 
 .menu-2 {
@@ -6,8 +23,6 @@
   display: block;
   width: 100%;
   height: 7%;
-  /*  background-color: red;
-    opacity: .3; */
 }
 
 
@@ -105,7 +120,7 @@ float: right;
   position: relative;
   width: 30%;
   height: 10%;
-  background-color: red;
+  background-color: #FF5959;
   margin-top: 5%;
 }
 
@@ -164,7 +179,7 @@ float: right;
   position: absolute;
   width: .1%;
   height: 110%;
-  background-color: red;
+  background-color: #FF5959;
   left: 50%;
   top: 5%;
 }
@@ -202,7 +217,7 @@ text-align: right;
   height: 3.5vw;
   width: 3.5vw;
   background-color: black;
-  border: .1vw solid red;
+  border: .1vw solid #FF5959;
   position: absolute;
   left: 50%;
   margin-right: -50%;
@@ -215,13 +230,40 @@ text-align: right;
   height: 1.5vw;
   width: 1.5vw;
   background-color: black;
-  border: .1vw solid red;
+  border: .1vw solid #FF5959;
   position: absolute;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%) rotate(45deg);
   /* transform: rotate(45deg); */
   top: 90%;
+}
+
+.square-fill-1 , .square-fill-2 , .square-fill-3 {
+  border: .1vw solid #FF5959;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  /* transform: rotate(45deg); */
+  top: 15%;
+}
+
+.square-fill-1 {
+  height: 3.5vw;
+  width: 3.5vw;
+background-color: #FF5959;
+}
+
+.square-fill-2 {
+  top: 10%;
+  height: 1.5vw;
+  width: 1.5vw;
+background-color: #FF5959;
+}
+
+.square-fill-3 {
+  display: none;
 }
 
 
@@ -244,7 +286,7 @@ text-align: right;
   font-size: 9.3em;
   font-weight: 400;
   text-transform: uppercase;
-  color: red;
+  color: #FF5959;
 }
 
 .text-block-1 h2 {
@@ -257,9 +299,9 @@ text-align: right;
 }
 
 .main p {
-  font-family: HeliosThin;
+  font-family: Roboto;
+  font-weight: 100;
   font-size: 1em;
-  font-weight: 200;
   color: white;
   line-height: 1.2;
   text-align: left;
@@ -327,7 +369,7 @@ text-align: right;
 
     .red-line {
       margin-top: 3%;
-      background-color: red;
+      background-color: #FF5959;
       width: 85%;}
 
 
