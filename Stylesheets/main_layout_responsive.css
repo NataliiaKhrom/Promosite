@@ -912,3 +912,39 @@ white-space: nowrap;}
   top: 0;
   width: 10%;
 }
+
+
+.mobile_block {
+    display: none;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 10%;
+    top: 60%; }
+
+.mobile_block img {
+  display: block;
+  width: 95%;
+}
+
+.mobile_block h2 {
+  width: 80%;
+  font-family: Bahnschrift;
+  color: red;
+  position: absolute;
+  margin: 0;
+  top: 5%;
+  left: 5%;
+  font-size: .7em;
+}
+
+.mobile_block h1 {
+  width: 80%;
+  font-family: Roboto;
+  color: white;
+  position: absolute;
+  margin: 0;
+  top: 5%;
+  left: 5%;
+  font-size: .5em;
+}
