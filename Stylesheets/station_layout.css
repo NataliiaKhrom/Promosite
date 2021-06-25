@@ -190,6 +190,7 @@
 left: 10%;
 top: 70vh;}
 
+
 .cv-carousel {
   overflow-x: hidden;
   position: absolute;
@@ -197,6 +198,17 @@ top: 70vh;}
   top: 40%;
   width: 20%;
   height: 29%;
+}
+
+.cv-carousel-::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 .cv-carousel h4 {
