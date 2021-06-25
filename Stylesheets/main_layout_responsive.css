@@ -935,7 +935,7 @@ white-space: nowrap;}
   margin: 0;
   top: 5%;
   left: 5%;
-  font-size: .7em;
+  font-size: 1em;
 }
 
 .mobile_block h1 {
@@ -944,7 +944,7 @@ white-space: nowrap;}
   color: white;
   position: absolute;
   margin: 0;
-  top: 5%;
+  top: 25%;
   left: 5%;
-  font-size: .5em;
+  font-size: .7em;
 }
