@@ -41,7 +41,7 @@ src: url("../Fonts/BAHNSCHRIFT 1.ttf") format("ttf");
 @font-face {
 font-family: "Roboto-light";
 font-style: normal;
-font-weight: 400;
+font-weight: 200;
 src: url("../Fonts/Roboto-Light.ttf") format("ttf");
 }
 
