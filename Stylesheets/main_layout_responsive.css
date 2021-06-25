@@ -720,7 +720,8 @@ a {
           }
 
       .graphic-main-text p {
-        font-family: Roboto-light;
+        font-family: Roboto;
+        font-weight: 100;
         text-align: center;
             color: #cdcdcd;
             font-size: 1em;
